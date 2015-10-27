@@ -9,7 +9,10 @@
 	var $body, $window, $sidebar, adminbarOffset, top = false,
 	    bottom = false, windowWidth, windowHeight, lastWindowPos = 0,
 	    topOffset = 0, bodyHeight, sidebarHeight, resizeTimer,
-	    secondary, button;
+
+	       secondary, button;
+
+    console.log('test')
 
 	function initMainNavigation( container ) {
 		// Add dropdown toggle that display child menu items.
