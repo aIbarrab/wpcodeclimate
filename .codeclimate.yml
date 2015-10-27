@@ -5,4 +5,4 @@ languages:
    PHP: true
 exclude_paths:
 - "wp-includes/*"
-- "wp-admin/includes/*"
+- "wp-admin/*"
